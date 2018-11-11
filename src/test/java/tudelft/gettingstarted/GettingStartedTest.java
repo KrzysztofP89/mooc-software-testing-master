@@ -24,4 +24,10 @@ public class GettingStartedTest {
         int result = new GettingStarted().addFive(-20);
         Assertions.assertEquals(-15, result);
     }
+
+    @Test
+    public void addFiveToMinusHundred() {
+        int result = new GettingStarted().addFive(-100);
+        Assertions.assertEquals(-95, result);
+    }
 }
