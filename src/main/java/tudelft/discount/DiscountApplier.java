@@ -4,6 +4,9 @@ public class DiscountApplier {
 
     private ProductDao dao;
 
+    public DiscountApplier() {
+
+
     public DiscountApplier (ProductDao dao) {
         this.dao = dao;
     }
